@@ -29,4 +29,4 @@ def get_user(user_id: int):
     cursor = conn.execute("SELECT * FROM users WHERE id = ?", (user_id,))
     user = cursor.fetchone()
     conn.close()
-    return user
+    return user# test11
