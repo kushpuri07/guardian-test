@@ -30,4 +30,4 @@ def get_user(user_id: int):
     cursor = conn.execute(query, (user_id,))
     user = cursor.fetchone()
     conn.close()
-    return user
+    return user# test10
